@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CyberScript
 
-# Run and deploy your AI Studio app
+CyberScript is an interactive cybersecurity training simulator powered by the Gemini 3 API.  
+It transforms simple user inputs into fully structured cyber‑attack storyboards designed for students, analysts, and cybersecurity enthusiasts.
 
-This contains everything you need to run your app locally.
+The app is built in Google AI Studio using Gemini 3 Flash Preview, dynamic prompt templating, and custom UI components. Users describe a target organization and select a difficulty level, and CyberScript generates:
 
-View your app in AI Studio: https://ai.studio/apps/drive/1zc0Cb9nkSFVxwkOKECoeUR8z9es5VUn9
+- Overview of the attack scenario
+- Multi‑phase attack storyboard
+- Sample system logs
+- Attack flow visualization
+- Mitigation and strategic lessons
 
-## Run Locally
+CyberScript demonstrates how Gemini 3 can orchestrate domain‑specific simulations, narrative synthesis, and structured output generation within a lightweight, interactive interface.
 
-**Prerequisites:**  Node.js
+## 🚀 Live Demo
+Public App Link:  
+*(Insert your AI Studio public link here)*
 
+## 🧠 Gemini Integration
+CyberScript uses Gemini 3 Flash Preview as its reasoning engine.  
+The system prompt enforces a strict five‑section output format, while the user prompt template binds UI inputs directly into the model request. This allows Gemini to generate tailored, scalable scenarios with realistic logs, attack phases, and mitigation strategies.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📂 Repository Structure
+- `/components` — UI components (buttons, storyboard cards)
+- `/services` — Gemini API integration
+- `/screenshots` — UI and output examples
+- `system_prompt.md` — full system prompt used in the app
+- `user_prompt_template.md` — dynamic prompt template
+- `architecture_overview.md` — explanation of app structure
+
+## 📝 License
+MIT License
