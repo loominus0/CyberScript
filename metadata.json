@@ -1,0 +1,5 @@
+{
+  "name": "CyberScript",
+  "description": "An interactive cyber attack simulation tool that generates visual storyboards and technical breakdowns for cybersecurity training using Gemini AI.",
+  "requestFramePermissions": []
+}
